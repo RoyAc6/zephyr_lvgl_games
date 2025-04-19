@@ -1,0 +1,13 @@
+menu "2048 Game Configuration"
+
+config 2048_USE_BUTTONS_TO_MOVE
+    bool "Enable on-screen arrow buttons for movement"
+    default n
+    help
+      If enabled, the game will render transparent arrow buttons
+      along the edges of the grid for tap‑based movement.
+      If disabled, movement is only via swipe gestures.
+
+endmenu
+
+source "Kconfig.zephyr"
