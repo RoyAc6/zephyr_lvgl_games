@@ -8,10 +8,11 @@ A collection of simple games built on Zephyr RTOS with the LVGL graphics library
 
 ## Getting Started
 
-   ```bash
-   west init -l zephyr_lvgl_games
-   west update
-   west build --board frdm_mcxn947/mcxn947/cpu0 <game_folder>
+```bash
+west init -l zephyr_lvgl_games
+west update
+west build --board frdm_mcxn947/mcxn947/cpu0 <game_folder>
+```
 
 ## Known Issues & Workarounds
 
