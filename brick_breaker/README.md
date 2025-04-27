@@ -1,4 +1,4 @@
-# Brick Breaker on Zephyr + LVGL
+# Brick Breaker (Breakout) game on Zephyr + LVGL
 
 A simple Brick Breaker game for the FRDM-MCXN947 + `lcd_par_s035_8080` display, built on Zephyr RTOS with LVGL.  
 Control the paddle by touching the screen, first tap launches the ball. You have 3 lives to clear all bricks!
