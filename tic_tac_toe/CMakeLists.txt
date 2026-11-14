@@ -2,7 +2,7 @@
 
 cmake_minimum_required(VERSION 3.20.0)
 
-if(CONFIG_BOARD_FRDM_MCXN947)
+if(BOARD MATCHES "frdm_mcxn947")
     set(SHIELD lcd_par_s035_8080)
 endif()
 
